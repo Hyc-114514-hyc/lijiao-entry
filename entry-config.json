@@ -1,1 +1,15 @@
-{"repository":"Hyc-114514-hyc/lijiao-entry","branch":"live"}
+{
+  "repository": "Hyc-114514-hyc/lijiao-entry",
+  "branch": "live",
+  "protocol": "lijiao-entry-identity-v1",
+  "identity": {
+    "id": "76fb4b3842366423e684d9635cee4b3e66a3580120bc0df96f17b3e13f6ca1bd",
+    "algorithm": "ECDSA-P256-SHA256",
+    "publicKey": {
+      "kty": "EC",
+      "crv": "P-256",
+      "x": "pQMaLrFIK_dwjfxEl4BFyGR3Mb9b00ypnQbtNDeFPU0",
+      "y": "-Of3bWixFdcylvvCdDQqoqC2SlCRY44YrNo1KWf8F5U"
+    }
+  }
+}
