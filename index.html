@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' https://*.cpolar.cn https://*.cpolar.com https://*.cpolar.io; connect-src 'self' https://raw.githubusercontent.com; base-uri 'none'; form-action 'none'">
+  <title>立交 · 固定入口</title>
+  <link rel="icon" href="./lijiao.png">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./entry.js" defer></script>
+</head>
+<body>
+  <main>
+    <header><img src="./lijiao.png" alt="立交"><div><strong>立交</strong><div class="tag">我的设备之间</div></div></header>
+    <h1>正在查找服务器</h1>
+    <p>连接成功后，这里会自动进入网站。<br>电脑未启动时，可保留此页面等待。</p>
+    <div class="status" role="status"><span class="dot"></span><span id="state">正在取得当前网址</span></div>
+    <button id="retry" type="button">重新检查</button>
+    <p id="checked" aria-live="polite"></p>
+    <p class="foot">收藏这个入口，以后无需记住变化的网址。<br>进入网站后的验证码仍由服务器验证。</p>
+    <noscript><p>请启用浏览器脚本后刷新页面。</p></noscript>
+  </main>
+</body>
+</html>
